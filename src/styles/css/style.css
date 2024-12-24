@@ -60,7 +60,6 @@ img, source {
 
 main {
   flex: 1;
-  width: 100vw;
 }
 
 .pc-only {
@@ -157,7 +156,7 @@ picture {
 }
 .cv-btn::after {
   content: "";
-  background: url(../img/btn-deco.svg);
+  background: url(/img/btn-deco.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -172,7 +171,7 @@ picture {
 }
 .cv-btn p::before {
   content: "";
-  background: url(../img/arrow-white.svg);
+  background: url(/img/arrow-white.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -201,13 +200,13 @@ picture {
   animation: shiny 4s ease-in-out infinite;
 }
 .cv-btn.cv-yellow::after {
-  background: url(../img/btn-deco-yellow.svg);
+  background: url(/img/btn-deco-yellow.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 .cv-btn.cv-yellow p::before {
-  background: url(../img/arrow-black.svg);
+  background: url(/img/arrow-black.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -232,7 +231,7 @@ picture {
   animation: shiny 4s ease-in-out infinite;
 }
 .cv-btn.cv-orange::after {
-  background: url(../img/btn-deco-orange.svg);
+  background: url(/img/btn-deco-orange.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -332,7 +331,7 @@ picture {
 /*--------------------- 監修者/supervisor end -----------------------*/
 /*--------------------- 導入/intro start -----------------------*/
 .intro {
-  background: url(../img/attention-all-bg.webp);
+  background: url(/img/attention-all-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -340,7 +339,7 @@ picture {
 }
 .intro::before {
   content: "";
-  background: url(../img/foot_brown.svg);
+  background: url(/img/foot_brown.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -352,7 +351,7 @@ picture {
 }
 .intro::after {
   content: "";
-  background: url(../img/foot_brown.svg);
+  background: url(/img/foot_brown.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -364,7 +363,7 @@ picture {
   z-index: -1;
 }
 .intro--top {
-  background: url(../img/intro.webp);
+  background: url(/img/intro.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -374,7 +373,7 @@ picture {
 }
 .intro--top::before {
   content: "";
-  background: url(../img/intro-arrow.svg);
+  background: url(/img/intro-arrow.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -397,7 +396,7 @@ picture {
   font-size: 2.5rem;
 }
 .intro--middle {
-  background: url(../img/intro-2-bg.webp);
+  background: url(/img/intro-2-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -431,7 +430,7 @@ picture {
 }
 .intro--middle--list--item::before {
   content: "";
-  background: url(../img/check.svg);
+  background: url(/img/check.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -508,7 +507,7 @@ picture {
 /*--------------------- 導入/intro end -----------------------*/
 /*--------------------- 危険性 attention start -----------------------*/
 .attention {
-  background: url(../img/attention-all-bg.webp);
+  background: url(/img/attention-all-bg.webp);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -565,7 +564,7 @@ picture {
   font-size: 2.5rem;
 }
 .attention--content {
-  background: url(../img/attention-bg.webp);
+  background: url(/img/attention-bg.webp);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -596,7 +595,7 @@ picture {
 }
 .attention--content--point .point-ttl::before {
   content: "";
-  background: url(../img/point-1-bubble.svg);
+  background: url(/img/point-1-bubble.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -607,14 +606,14 @@ picture {
   top: -5rem;
 }
 .attention--content--point .point-ttl.point-2::before {
-  background: url(../img/point-2-bubble.svg);
+  background: url(/img/point-2-bubble.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   left: -1rem;
 }
 .attention--content--point .point-ttl.point-3::before {
-  background: url(../img/point-3-bubble.svg);
+  background: url(/img/point-3-bubble.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -657,7 +656,7 @@ picture {
 }
 .attention--content--point .point-ranking .ranking .title::before {
   content: "";
-  background: url(../img/point-ranking-bubble-1.svg);
+  background: url(/img/point-ranking-bubble-1.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -670,7 +669,7 @@ picture {
   z-index: -1;
 }
 .attention--content--point .point-ranking .ranking .title.ranking-2::before {
-  background: url(../img/point-ranking-bubble-2.svg);
+  background: url(/img/point-ranking-bubble-2.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -731,7 +730,7 @@ picture {
 }
 .attention--content--point .list li::before {
   content: "";
-  background: url(../img/check-pink.svg);
+  background: url(/img/check-pink.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -849,7 +848,7 @@ picture {
 }
 .table--ttl .sub {
   color: #fff;
-  background: url(../img/ranking-bbl.svg);
+  background: url(/img/ranking-bbl.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -865,7 +864,7 @@ picture {
 }
 .table--ttl .sub::before, .table--ttl .sub::after {
   content: "";
-  background: url(../img/ranking-ttl-deco.svg);
+  background: url(/img/ranking-ttl-deco.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -1055,7 +1054,7 @@ picture {
 }
 .table--content--rank--item .btn .rankign-cta::after {
   content: "";
-  background: url(../img/arrow-white.svg);
+  background: url(/img/arrow-white.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -1216,7 +1215,7 @@ picture {
 }
 .table--content--rank--item dl.worry dd ul li::before {
   content: "";
-  background: url(../img/check-pink-circle.svg);
+  background: url(/img/check-pink-circle.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -1350,7 +1349,7 @@ picture {
 }
 .detail::before {
   content: "";
-  background: url(../img/detail-ears.webp);
+  background: url(/img/detail-ears.webp);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -1386,7 +1385,7 @@ picture {
 }
 .detail--list--item .title::before {
   content: "";
-  background: url(../img/detail-rank-2.svg);
+  background: url(/img/detail-rank-2.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -1502,7 +1501,7 @@ picture {
 }
 .detail--list--item .point-list ul li::before {
   content: "";
-  background: url(../img/point-1.svg);
+  background: url(/img/point-1.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -1516,13 +1515,13 @@ picture {
   background: #fff6f6;
 }
 .detail--list--item .point-list ul li.point-2::before {
-  background: url(../img/point-2.svg);
+  background: url(/img/point-2.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 .detail--list--item .point-list ul li.point-3::before {
-  background: url(../img/point-3.svg);
+  background: url(/img/point-3.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -1684,7 +1683,7 @@ picture {
 }
 .detail--list--item .voice .voice-box picture::before {
   content: "";
-  background: url(../img/heart.svg);
+  background: url(/img/heart.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -1734,7 +1733,7 @@ picture {
   position: absolute;
   left: -6.5rem;
   top: -2rem;
-  background: url(../img/tag.svg);
+  background: url(/img/tag.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -1809,7 +1808,7 @@ picture {
 }
 .detail--list--item .coupon::before {
   content: "";
-  background: url(../img/arrow-black.svg);
+  background: url(/img/arrow-black.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -1822,7 +1821,7 @@ picture {
 }
 .detail--list--item.konoko::before {
   content: "";
-  background: url(../img/detail-dog-1.webp);
+  background: url(/img/detail-dog-1.webp);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -1835,7 +1834,7 @@ picture {
 }
 .detail--list--item.umaka::before {
   content: "";
-  background: url(../img/detail-dog-2.webp);
+  background: url(/img/detail-dog-2.webp);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -1847,14 +1846,14 @@ picture {
   transform: translateY(-100%);
 }
 .detail--list--item.umaka .title::before {
-  background: url(../img/detail-rank-1.svg);
+  background: url(/img/detail-rank-1.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 .detail--list--item.moguwan::before {
   content: "";
-  background: url(../img/detail-dog-3.webp);
+  background: url(/img/detail-dog-3.webp);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -1866,14 +1865,14 @@ picture {
   transform: translateY(-100%);
 }
 .detail--list--item.moguwan .title::before {
-  background: url(../img/detail-rank-3.svg);
+  background: url(/img/detail-rank-3.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 .detail--list--item.mishone::before {
   content: "";
-  background: url(../img/detail-dog-4.webp);
+  background: url(/img/detail-dog-4.webp);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -1885,14 +1884,14 @@ picture {
   transform: translateY(-90%);
 }
 .detail--list--item.mishone .title::before {
-  background: url(../img/detail-rank-4.svg);
+  background: url(/img/detail-rank-4.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 .detail--list--item.anshinkenkatsu::before {
   content: "";
-  background: url(../img/detail-dog-5.webp);
+  background: url(/img/detail-dog-5.webp);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -1904,7 +1903,7 @@ picture {
   transform: translateY(-90%);
 }
 .detail--list--item.anshinkenkatsu .title::before {
-  background: url(../img/detail-rank-5.svg);
+  background: url(/img/detail-rank-5.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -1965,7 +1964,7 @@ picture {
 }
 .reccomend .title .sub::before {
   content: "";
-  background: url(../img/reccomend-arrow.svg);
+  background: url(/img/reccomend-arrow.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -2044,7 +2043,7 @@ picture {
 }
 .diagnosis::before, .diagnosis::after {
   content: "";
-  background: url(../img/footprints.svg);
+  background: url(/img/footprints.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -2055,7 +2054,7 @@ picture {
   top: 0;
 }
 .diagnosis::after {
-  background: url(../img/footprints-2.svg);
+  background: url(/img/footprints-2.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -2123,7 +2122,7 @@ picture {
 }
 .diagnosis--list--question .question::before {
   content: "";
-  background: url(../img/q1-deco.svg);
+  background: url(/img/q1-deco.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -2134,19 +2133,19 @@ picture {
   bottom: 0;
 }
 .diagnosis--list--question .question.question-2::before {
-  background: url(../img/q2-deco.svg);
+  background: url(/img/q2-deco.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 .diagnosis--list--question .question.question-3::before {
-  background: url(../img/q3-deco.svg);
+  background: url(/img/q3-deco.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 .diagnosis--list--question .bottom {
-  background: url(../img/question-bg.webp);
+  background: url(/img/question-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -2234,7 +2233,7 @@ picture {
 }
 .result--ttl .sub::before {
   content: "";
-  background: url(../img/arrow-white.svg);
+  background: url(/img/arrow-white.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -2265,7 +2264,7 @@ picture {
 }
 .result--ttl .name::before {
   content: "";
-  background: url(../img/answer-dog-1.svg);
+  background: url(/img/answer-dog-1.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -2278,7 +2277,7 @@ picture {
 }
 .result--ttl .name::after {
   content: "";
-  background: url(../img/answer-dog-2.svg);
+  background: url(/img/answer-dog-2.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -2356,7 +2355,7 @@ picture {
 }
 .result--point ul li::before {
   content: "";
-  background: url(../img/reccomend-point-1.svg);
+  background: url(/img/reccomend-point-1.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -2367,7 +2366,7 @@ picture {
   top: -0.5rem;
 }
 .result--point ul li.point-2::before {
-  background: url(../img/reccomend-point-2.svg);
+  background: url(/img/reccomend-point-2.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -2400,7 +2399,7 @@ picture {
 }
 .result--qa .qa-item .answer-wrap .answer::before {
   content: "";
-  background: url(../img/result-woman.svg);
+  background: url(/img/result-woman.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -2436,7 +2435,7 @@ picture {
 }
 .result .good-point .question::before, .result .good-point .question::after {
   content: "";
-  background: url(../img/good-point-bubble.svg);
+  background: url(/img/good-point-bubble.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -2455,7 +2454,7 @@ picture {
 }
 .result .good-point .content {
   margin-top: 2rem;
-  background: url(../img/attention-bg.webp);
+  background: url(/img/attention-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -2591,7 +2590,7 @@ picture {
 }
 .fixed-btn a::after {
   content: "";
-  background: url(../img/btn-deco.svg);
+  background: url(/img/btn-deco.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -2610,7 +2609,7 @@ picture {
 }
 .fixed-btn a p::before {
   content: "";
-  background: url(../img/arrow-white.svg);
+  background: url(/img/arrow-white.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;

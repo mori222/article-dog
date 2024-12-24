@@ -9,7 +9,6 @@ const HomePage: React.FC = () => {
     return (
         <Layout>
             <FvSection />
-            {/* 他のセクションコンポーネント */}
         </Layout>
     );
 };

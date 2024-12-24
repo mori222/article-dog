@@ -1,9 +1,18 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Fv: React.FC = () => {
   return (
     <section className='fv'>
-      <picture><img src="../assets/img/fv.webp" alt="2024年ドッグフードおすすめランキング" /></picture>
+      <picture>
+        <Image 
+          src="/img/fv.webp"
+          alt="2024年ドッグフードおすすめランキング"
+          width={390}
+          height={200}
+          loading="lazy"
+        />
+      </picture>
     </section>
   );
 };

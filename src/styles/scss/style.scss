@@ -68,7 +68,6 @@ img,source{
 }
 main{
 	flex:1;
-	width:100vw;
 }
 .pc-only{
 	display:none;
@@ -152,7 +151,7 @@ picture{
 	}
 	&::after{
 		content: "";
-		background: url(../img/btn-deco.svg);
+		background: url(/img/btn-deco.svg);
 		@include bg-contain;
 		width: 4.2rem;
 		height: 3rem;
@@ -164,7 +163,7 @@ picture{
 		position: relative;
 		&::before{
 			content: '';
-			background: url(../img/arrow-white.svg);
+			background: url(/img/arrow-white.svg);
 			@include bg-contain;
 			width: 1.4rem;
 			height: 1.4rem;
@@ -191,12 +190,12 @@ picture{
 			animation: shiny 4s ease-in-out infinite;
 		}
 		&::after{
-			background: url(../img/btn-deco-yellow.svg);
+			background: url(/img/btn-deco-yellow.svg);
 			@include bg-contain;
 		}
 		p{
 			&::before{
-				background: url(../img/arrow-black.svg);
+				background: url(/img/arrow-black.svg);
 				@include bg-contain;
 			}
 		}
@@ -220,7 +219,7 @@ picture{
 			animation: shiny 4s ease-in-out infinite;
 		}
 		&::after{
-			background: url(../img/btn-deco-orange.svg);
+			background: url(/img/btn-deco-orange.svg);
 			@include bg-contain;
 		}
 	}
@@ -317,12 +316,12 @@ picture{
 
 /*--------------------- 導入/intro start -----------------------*/
 .intro{
-	background: url(../img/attention-all-bg.webp);
+	background: url(/img/attention-all-bg.webp);
 	@include bg-cover;
 	position: relative;
 	&::before{
 		content: '';
-		background: url(../img/foot_brown.svg);
+		background: url(/img/foot_brown.svg);
 		@include bg-contain;
 		width: 10rem;
 		height: 11rem;
@@ -332,7 +331,7 @@ picture{
 	}
 	&::after{
 		content: '';
-		background: url(../img/foot_brown.svg);
+		background: url(/img/foot_brown.svg);
 		@include bg-contain;
 		width: 10rem;
 		height: 11rem;
@@ -342,14 +341,14 @@ picture{
 		z-index: -1;
 	}
 	&--top{
-		background: url(../img/intro.webp);
+		background: url(/img/intro.webp);
 		@include bg-cover;
 		padding-top: 2.5rem;
 		height: 20.3rem;
 		position: relative;
 		&::before{
 			content: '';
-			background: url(../img/intro-arrow.svg);
+			background: url(/img/intro-arrow.svg);
 			@include bg-contain;
 			width: 4.75rem;
 			height: 1.75rem;
@@ -371,7 +370,7 @@ picture{
 		}
 	}
 	&--middle{
-		background: url(../img/intro-2-bg.webp);
+		background: url(/img/intro-2-bg.webp);
 		@include bg-cover;
 		padding: 2.2rem 3rem 5.2rem;
 		&--txt{
@@ -398,7 +397,7 @@ picture{
 				position: relative;
 				&::before{
 					content: '';
-					background: url(../img/check.svg);
+					background: url(/img/check.svg);
 					@include bg-contain;
 					width: 2.2rem;
 					height: 2.2rem;
@@ -474,7 +473,7 @@ picture{
 
 /*--------------------- 危険性 attention start -----------------------*/
 .attention{
-	background: url(../img/attention-all-bg.webp);
+	background: url(/img/attention-all-bg.webp);
 	@include bg-contain;
 	background-repeat: repeat-y;
 	padding: 5.6rem 3rem 16rem;
@@ -526,7 +525,7 @@ picture{
 		}
 	}
 	&--content{
-		background: url(../img/attention-bg.webp);
+		background: url(/img/attention-bg.webp);
 		@include bg-contain;
 		background-repeat: repeat-y;
 		border-radius: 0.8rem;
@@ -549,7 +548,7 @@ picture{
 				padding-bottom: 0.8rem;
 				&::before{
 					content: '';
-					background: url(../img/point-1-bubble.svg);
+					background: url(/img/point-1-bubble.svg);
 					@include bg-contain;
 					width: 7.4rem;
 					height: 4.6rem;
@@ -559,14 +558,14 @@ picture{
 				}
 				&.point-2{
 					&::before{
-						background: url(../img/point-2-bubble.svg);
+						background: url(/img/point-2-bubble.svg);
 						@include bg-contain;
 						left: -1rem;
 					}
 				}
 				&.point-3{
 					&::before{
-						background: url(../img/point-3-bubble.svg);
+						background: url(/img/point-3-bubble.svg);
 						@include bg-contain;
 						left: -2rem;
 					}
@@ -608,7 +607,7 @@ picture{
 						z-index: 2;
 						&::before{
 							content: '';
-							background: url(../img/point-ranking-bubble-1.svg);
+							background: url(/img/point-ranking-bubble-1.svg);
 							@include bg-contain;
 							width: 20.6rem;
 							height: 5.1rem;
@@ -620,7 +619,7 @@ picture{
 						}
 						&.ranking-2{
 							&::before{
-								background: url(../img/point-ranking-bubble-2.svg);
+								background: url(/img/point-ranking-bubble-2.svg);
 								@include bg-contain;
 								width: 26.7rem;
 								height: 5.2rem;
@@ -673,7 +672,7 @@ picture{
 					margin-left: 3.3rem;
 					&::before{
 						content: '';
-						background: url(../img/check-pink.svg);
+						background: url(/img/check-pink.svg);
 						@include bg-contain;
 						width: 2rem;
 						height: 2rem;
@@ -794,7 +793,7 @@ picture{
 		font-weight: bold;
 		.sub{
 			color: $color-white;
-			background: url(../img/ranking-bbl.svg);
+			background: url(/img/ranking-bbl.svg);
 			@include bg-contain;
 			width: 25rem;
 			height: 5.55rem;
@@ -807,7 +806,7 @@ picture{
 			}
 			&::before, &::after{
 				content: "";
-				background: url(../img/ranking-ttl-deco.svg);
+				background: url(/img/ranking-ttl-deco.svg);
 				@include bg-contain;
 				width: 6.6rem;
 				height: 13.2rem;
@@ -984,7 +983,7 @@ picture{
 						}
 						&::after{
 							content: '';
-							background: url(../img/arrow-white.svg);
+							background: url(/img/arrow-white.svg);
 							@include bg-contain;
 							width: 1.4rem;
 							height: 1.4rem;
@@ -1135,7 +1134,7 @@ picture{
 									position: relative;
 									&::before{
 										content: '';
-										background: url(../img/check-pink-circle.svg);
+										background: url(/img/check-pink-circle.svg);
 										@include bg-contain;
 										width: 1.2rem;
 										height: 1.2rem;
@@ -1269,7 +1268,7 @@ picture{
 	background: #DCD4C6;
 	&::before{
 		content: '';
-		background: url(../img/detail-ears.webp);
+		background: url(/img/detail-ears.webp);
 		@include bg-contain;
 		width: 20.1rem;
 		height: 4.3rem;
@@ -1297,7 +1296,7 @@ picture{
 				font-size: 2.4rem;
 				&::before{
 					content: '';
-					background: url(../img/detail-rank-2.svg);
+					background: url(/img/detail-rank-2.svg);
 					@include bg-contain;
 					width: 4.8rem;
 					height: 4.8rem;
@@ -1402,7 +1401,7 @@ picture{
 						width: 100%;
 						&::before{
 							content: '';
-							background: url(../img/point-1.svg);
+							background: url(/img/point-1.svg);
 							@include bg-contain;
 							width: 6rem;
 							height: 6rem;
@@ -1413,13 +1412,13 @@ picture{
 						&.point-2{
 							background: $color-pink-0;
 							&::before{
-								background: url(../img/point-2.svg);
+								background: url(/img/point-2.svg);
 								@include bg-contain;
 							}
 						}
 						&.point-3{
 							&::before{
-								background: url(../img/point-3.svg);
+								background: url(/img/point-3.svg);
 								@include bg-contain;
 							}
 						}
@@ -1575,7 +1574,7 @@ picture{
 						position: relative;
 						&::before{
 							content: '';
-							background: url(../img/heart.svg);
+							background: url(/img/heart.svg);
 							@include bg-contain;
 							width: 4.8rem;
 							height: 3.8rem;
@@ -1619,7 +1618,7 @@ picture{
 								position: absolute;
 								left: -6.5rem;
 								top: -2rem;
-								background: url(../img/tag.svg);
+								background: url(/img/tag.svg);
 								@include bg-contain;
 								padding-left: 4.3rem;
 								width: 20rem;
@@ -1689,7 +1688,7 @@ picture{
 				z-index: 10;
 				&::before{
 					content: '';
-					background: url(../img/arrow-black.svg);
+					background: url(/img/arrow-black.svg);
 					@include bg-contain;
 					width: 3rem;
 					height: 3rem;
@@ -1702,7 +1701,7 @@ picture{
 			&.konoko{
 				&::before{
 					content: '';
-					background: url(../img/detail-dog-1.webp);
+					background: url(/img/detail-dog-1.webp);
 					@include bg-contain;
 					width: 7rem;
 					height: 5.7rem;
@@ -1715,7 +1714,7 @@ picture{
 			&.umaka{
 				&::before{
 					content: '';
-					background: url(../img/detail-dog-2.webp);
+					background: url(/img/detail-dog-2.webp);
 					@include bg-contain;
 					width: 8.5rem;
 					height: 6.4rem;
@@ -1726,7 +1725,7 @@ picture{
 				}
 				.title{
 					&::before{
-						background: url(../img/detail-rank-1.svg);
+						background: url(/img/detail-rank-1.svg);
 						@include bg-contain;
 					}
 				}
@@ -1734,7 +1733,7 @@ picture{
 			&.moguwan{
 				&::before{
 					content: '';
-					background: url(../img/detail-dog-3.webp);
+					background: url(/img/detail-dog-3.webp);
 					@include bg-contain;
 					width: 5.4rem;
 					height: 7.5rem;
@@ -1745,7 +1744,7 @@ picture{
 				}
 				.title{
 					&::before{
-						background: url(../img/detail-rank-3.svg);
+						background: url(/img/detail-rank-3.svg);
 						@include bg-contain;
 					}
 				}
@@ -1753,7 +1752,7 @@ picture{
 			&.mishone{
 				&::before{
 					content: '';
-					background: url(../img/detail-dog-4.webp);
+					background: url(/img/detail-dog-4.webp);
 					@include bg-contain;
 					width: 5.4rem;
 					height: 7.5rem;
@@ -1764,7 +1763,7 @@ picture{
 				}
 				.title{
 					&::before{
-						background: url(../img/detail-rank-4.svg);
+						background: url(/img/detail-rank-4.svg);
 						@include bg-contain;
 					}
 				}
@@ -1772,7 +1771,7 @@ picture{
 			&.anshinkenkatsu{
 				&::before{
 					content: '';
-					background: url(../img/detail-dog-5.webp);
+					background: url(/img/detail-dog-5.webp);
 					@include bg-contain;
 					width: 5.4rem;
 					height: 7.5rem;
@@ -1783,7 +1782,7 @@ picture{
 				}
 				.title{
 					&::before{
-						background: url(../img/detail-rank-5.svg);
+						background: url(/img/detail-rank-5.svg);
 						@include bg-contain;
 					}
 				}
@@ -1844,7 +1843,7 @@ picture{
 			position: relative;
 			&::before{
 				content: '';
-				background: url(../img/reccomend-arrow.svg);
+				background: url(/img/reccomend-arrow.svg);
 				@include bg-contain;
 				width: 1rem;
 				height: 3.5rem;
@@ -1920,7 +1919,7 @@ picture{
 	padding: 6rem 3rem;
 	&::before, &::after{
 		content: '';
-		background: url(../img/footprints.svg);
+		background: url(/img/footprints.svg);
 		@include bg-contain;
 		width: 12.1rem;
 		height: 13.5rem;
@@ -1929,7 +1928,7 @@ picture{
 		top: 0;
 	}
 	&::after{
-		background: url(../img/footprints-2.svg);
+		background: url(/img/footprints-2.svg);
 		@include bg-contain;
 		right: auto;
 		left: 0;
@@ -1989,7 +1988,7 @@ picture{
 				border-radius: 0.8rem 0.8rem 0 0 ;
 				&::before{
 					content: '';
-					background: url(../img/q1-deco.svg);
+					background: url(/img/q1-deco.svg);
 					@include bg-contain;
 					width: 7.62rem;
 					height: 6.08rem;
@@ -1999,19 +1998,19 @@ picture{
 				}
 				&.question-2{
 					&::before{
-						background: url(../img/q2-deco.svg);
+						background: url(/img/q2-deco.svg);
 						@include bg-contain;
 					}
 				}
 				&.question-3{
 					&::before{
-						background: url(../img/q3-deco.svg);
+						background: url(/img/q3-deco.svg);
 						@include bg-contain;
 					}
 				}
 			}
 			.bottom{
-				background: url(../img/question-bg.webp);
+				background: url(/img/question-bg.webp);
 				@include bg-cover;
 				width: 100%;
 				border: solid 0.2rem $color-brown;
@@ -2091,7 +2090,7 @@ picture{
 			position: relative;
 			&::before{
 				content: '';
-				background: url(../img/arrow-white.svg);
+				background: url(/img/arrow-white.svg);
 				@include bg-contain;
 				width: 3rem;
 				height: 3rem;
@@ -2120,7 +2119,7 @@ picture{
 			position: relative;
 			&::before{
 				content: '';
-				background: url(../img/answer-dog-1.svg);
+				background: url(/img/answer-dog-1.svg);
 				@include bg-contain;
 				width: 5.8rem;
 				height: 5.7rem;
@@ -2131,7 +2130,7 @@ picture{
 			}
 			&::after{
 				content: '';
-				background: url(../img/answer-dog-2.svg);
+				background: url(/img/answer-dog-2.svg);
 				@include bg-contain;
 				width: 7.3rem;
 				height: 5.9rem;
@@ -2203,7 +2202,7 @@ picture{
 				position: relative;
 				&::before{
 					content: '';
-					background: url(../img/reccomend-point-1.svg);
+					background: url(/img/reccomend-point-1.svg);
 					@include bg-contain;
 					width: 4rem;
 					height: 4rem;
@@ -2213,7 +2212,7 @@ picture{
 				}
 				&.point-2{
 					&::before{
-						background: url(../img/reccomend-point-2.svg);
+						background: url(/img/reccomend-point-2.svg);
 						@include bg-contain;
 					}
 				}
@@ -2246,7 +2245,7 @@ picture{
 					position: relative;
 					&::before{
 						content: '';
-						background: url(../img/result-woman.svg);
+						background: url(/img/result-woman.svg);
 						@include bg-contain;
 						width: 6rem;
 						height: 6.4rem;
@@ -2282,7 +2281,7 @@ picture{
 			display: inline-block;
 			&::before, &::after{
 				content: '';
-				background: url(../img/good-point-bubble.svg);
+				background: url(/img/good-point-bubble.svg);
 				@include bg-contain;
 				width: 2.75rem;
 				height: 5.4rem;
@@ -2300,7 +2299,7 @@ picture{
 		}
 		.content{
 			margin-top: 2rem;
-			background: url(../img/attention-bg.webp);
+			background: url(/img/attention-bg.webp);
 			@include bg-cover;
 			width: 100%;
 			padding: 2rem;
@@ -2426,7 +2425,7 @@ picture{
 		}
 		&::after{
 			content: "";
-			background: url(../img/btn-deco.svg);
+			background: url(/img/btn-deco.svg);
 			@include bg-contain;
 			width: 4.2rem;
 			height: 3rem;
@@ -2440,7 +2439,7 @@ picture{
 			font-weight: bold;
 			&::before{
 				content: '';
-				background: url(../img/arrow-white.svg);
+				background: url(/img/arrow-white.svg);
 				@include bg-contain;
 				width: 1.4rem;
 				height: 1.4rem;
