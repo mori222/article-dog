@@ -1,0 +1,42 @@
+// Scss Document
+$color-black:#3c3c3c;
+$color-white: #fff;
+
+$color-d-brown:#663E2A;
+$color-brown:#97634A;
+$color-orange:#fc8608;
+$color-yellow:#f7e083;
+$color-blue:#68C4C3;
+$color-blue-1:#417E7D;
+$color-pink-0:#fff6f6;
+$color-pink:#FFD5D6;
+$color-pink-2:#F49798;
+$color-green:#1C9230;
+$color-gold: #C2A15A;
+$color-silver: #7e878e;
+$color-copper: #AD8E6D;
+
+// font
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../font/Roboto-Medium.woff2") format("woff2"), url("../font/Roboto-Medium.woff") format("woff");
+}
+$font-roboto: 'Roboto', sans-selif;
+
+@font-face {
+    font-family: 'ZenKakuGothicNew';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../font/ZenKakuGothicNew-Regular.woff2") format("woff2"), url("../font/ZenKakuGothicNew-Regular.woff") format("woff");
+}
+@font-face {
+    font-family: 'ZenKakuGothicNew';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("../font/ZenKakuGothicNew-Bold.woff2") format("woff2"), url("../font/ZenKakuGothicNew-Bold.woff") format("woff");
+}
